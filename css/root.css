@@ -1,0 +1,78 @@
+:root {
+	--white: #fff;
+	--black: #000;
+	--l_black: #292E39;
+	--primary: #6D31EE;
+	--primary_shade: #4F28A5;
+	--primary_light: #AA9DFA;
+	--light: #E6E8EC;
+/*	--light_40: #E6E8EC;*/
+	--gray: #A1A6B4;
+	--s_gray: #D2D5DD;
+	--red: #FF6F6F;
+	--promo: #F0D288;
+	--promo_shade: #BB973E;
+}
+/* Header */
+.header {
+    background-color: var(--l_black);
+    color: var(--light);
+}
+
+.header__nav-link {
+    color: var(--light);
+    font-weight: 400;
+}
+
+.header__nav-link:hover {
+    color: var(--primary_light);
+}
+
+.header__search-content {
+    background-color: var(--light);
+    border-bottom: 1px solid var(--s_gray);
+}
+
+.header__search-button:hover > svg > path:nth-child(1),
+.header__search-button:hover > svg > path:nth-child(2) {
+    stroke: var(--primary_light);
+}
+
+/* Buttons */
+.btn {
+    background-color: var(--primary);
+    color: var(--light);
+}
+/* Text */
+h1, h2, h3 {
+    color: var(--black);
+}
+
+p {
+    color: var(--l_black);
+}
+
+a {
+    color: var(--primary);
+}
+
+a:hover {
+    color: var(--primary_light);
+}
+
+.container {
+    background-color: var(--light);
+}
+
+/* Lists */
+.list-reset li {
+    color: var(--l_black);
+}
+
+.list-reset li a {
+    color: var(--primary);
+}
+
+.list-reset li a:hover {
+    color: var(--primary_light);
+}
